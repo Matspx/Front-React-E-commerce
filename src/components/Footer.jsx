@@ -1,24 +1,50 @@
 import React from "react";
 import './Footer.css';
 
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
+
 const Footer = () => {
 
     return(
         <div className="footer-container">
             <div className="footer-info info-business">
-                <h3>empresa</h3>
-                <p>sdadasda</p>
+                <h3>SomeThing.</h3>
+                <p>
+                    sdadasdads asdas dasd asdasdasdas wdfasd asdasdasd sadasdasdsa dsasdasdasd sadas dsad sad sad sadsae  adas dsddsads adsdasdas dsdasd 
+                    sdadasdads asdas dasd asdasdasdas wdfasd asdasdasd sadasdasdsa dsasdasdasd sadas dsad sad sad sadsae  adas dsddsads adsdasdas dsdasd 
+                </p>
+                <div className="footer-icons">
+                    <InstagramIcon />
+                    <GitHubIcon />
+                    <LinkedInIcon/>
+                </div>
+                
             </div>
             <div className="footer-info footer-links">
                 <h3>Links</h3>
-                <p>sdadasda</p>
-                <p>sdadasda</p>
+                <p>Home</p>
+                <p>Products</p>
 
             </div>
-            <div className="footer-info contact">
+            <div className="footer-info footer-contact">
                 <h3>Contatos</h3>
-                <p>sdadasda</p>
-                <p>sdadasda</p>
+                <div>
+                    <PhoneAndroidIcon />
+                    <p>(xx) xxxxx-xxxx</p>
+                </div>
+                <div>
+                    <LocationOnIcon />
+                    <p>xxxxxxxxx, xxxxx</p>
+                </div>
+                <div>
+                    <MailOutlineIcon />
+                  <p>xxxxx@xxxx.xxx</p>
+                </div>
             </div>
         </div>
     )

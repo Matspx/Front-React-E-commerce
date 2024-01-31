@@ -12,7 +12,14 @@
     display: flex;
     align-items: center;
     margin: 0 20px;
+    white-space: nowrap;
+    gap: 0.8rem;
 }
+
+/*.filter-products div{
+    margin: 0 20px;
+
+}*/
 .MuiFormControl-root {
     display: flex !important;
     flex-direction: row !important;

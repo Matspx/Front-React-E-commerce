@@ -4,15 +4,13 @@ import './App.css';
 import Home from './pages/Home';
 import ProductList from './pages/ProductList';
 import Product from './pages/Product';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import Register from './pages/Register';
+import Cart from './pages/Cart';
 
 function App() {
   return (
     <Fragment>
-      <Nav />
-      <Product />
-      <Footer />
+      <Cart />
     </Fragment>
   );
 }

@@ -14,12 +14,12 @@ const Nav = () => {
     return(
         <div className="nav-bar">
             <div className="search">
-                <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
+                <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                    <TextField label="" variant="outlined" />
                     <SearchOutlinedIcon sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
-                    <TextField sx label="pesquisa" variant="standard" />
                 </Box>
             </div>
-            <div className="logo">logo</div>
+            <div className="logo">SomeThing.</div>
             <div className="user">
                 <a href="/" className="register">Register</a>
                 <a href="/" className="signin">Sign In</a>

@@ -1,0 +1,85 @@
+.product-container {
+    margin: 3.6rem 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-img{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-img img{
+    height: 80%;
+    margin: 0 25px;
+}
+
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+}
+
+.product-info h1{
+    margin: 0;
+}
+
+.product-info .product-text {
+    width: 70%;
+}
+
+.product-info form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+}
+
+.product-info form div{
+    min-width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.product-info .form-color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.product-info .form-size div {
+    min-width: 3.6rem;
+    max-height: 2.4rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.product-info .form-size fieldset{
+    border-color: rgba(0, 0, 0, 0.23) !important;
+
+}
+
+.product-info .form-amount div {
+    max-height: 2.4rem;
+    
+}
+
+.product-info button{
+    border-color: rgba(0, 0, 0, 0.23) !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+.title-products {
+    margin: 0 20px;
+}
+
+.filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter > div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.MuiFormControl-root {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::after {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.filter fieldset{
+    border-color: rgba(0, 0, 0, 0.23);
+}
+
+.filter label {
+    color:rgba(0, 0, 0, 0.5) !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    min-width: 3.6rem;
+    min-height: 0.4rem !important;
+    padding: 0.6rem 1rem;  
+
+}

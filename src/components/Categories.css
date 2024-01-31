@@ -1,0 +1,44 @@
+.categories {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.categorie {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+}
+
+.categorie img{
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-categories-container{
+    padding: 50px;
+    top: 20%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info-categories-container p, .info-categories-container h1{
+    color: #f3f3f3;
+}
+
+.info-categories-container button {
+    color: #f3f3f3;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}

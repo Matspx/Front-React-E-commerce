@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+  }
+
+  div {
+    scroll-snap-align: center;
+  }
+
+.nav-bar {
+    height: 80px;
+    background-color: rgba(226, 239, 255, 0.349);
+    border-bottom: 2px solid #f2f2f2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-bar > div{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.search i{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.search input {
+    height: 20px;
+}
+
+.logo {
+    justify-content: center;
+}
+
+.user{
+    justify-content: flex-end;
+}
+
+.user a{
+    margin: 16px 10px 0 10px;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    
+}
+
+.user a:hover{
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::after {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    color: rgba(0, 0, 0, 0.7) !important;
+}

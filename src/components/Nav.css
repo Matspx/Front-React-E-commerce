@@ -39,11 +39,21 @@
     opacity: 0.6;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.2rem;
     
+}
+
+/* cart icon */
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 1.8rem !important;
 }
 
 .user a:hover{
     opacity: 1;
+}
+
+.user-btn {
+    display: none;
 }
 
 .css-1eed5fa-MuiInputBase-root-MuiInput-root::after {
@@ -52,4 +62,35 @@
 
 .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
     color: rgba(0, 0, 0, 0.7) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .search{
+        display: none !important;
+    }
+
+    .nav-bar > div {
+        flex: 0;
+        display: flex;
+        margin: 20px;
+        align-items: center;
+    }
+
+    .user-btn {
+        display: block;
+    }
+
+    .register-btn {
+        display: none;
+    }
+
+    .signin-btn {
+        display: none;
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        font-size: 2rem !important;
+    }
+
+
 }

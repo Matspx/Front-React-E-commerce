@@ -18,6 +18,7 @@
     justify-content: center;
     position: relative;
     margin: 10px;
+    border-radius: 10px;
 
     background-color: rgba(226, 239, 255, 0.349);
 }
@@ -76,4 +77,12 @@
     border-radius: 50%;
     background: white;
     z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .product-card {
+        min-width: 45%;
+        max-width: 50%;
+    }
+
 }

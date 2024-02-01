@@ -1,6 +1,8 @@
 import React from "react";
 import './Footer.css';
 
+
+import { Link } from "@mui/material";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -27,8 +29,8 @@ const Footer = () => {
             </div>
             <div className="footer-info footer-links">
                 <h3>Links</h3>
-                <p>Home</p>
-                <p>Products</p>
+                <Link href="#"><p>Home</p></Link>
+                <Link href="#"><p>Cart</p></Link>
 
             </div>
             <div className="footer-info footer-contact">

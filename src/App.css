@@ -1,4 +1,4 @@
-h1, p, a, input, fieldset, label, button, svg {
+h1, p, a, input, fieldset, label, button{
   color: black !important;
   border-color: rgba(0, 0, 0, 0.23) !important;
   text-decoration-color: black !important;

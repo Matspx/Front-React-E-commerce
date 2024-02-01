@@ -42,7 +42,9 @@ const Slider = () => {
                             <div className="info-container">
                                 <h1>{item.title}</h1>
                                 <p>{item.description}</p>
-                                <button>compre</button>
+                                <button>Buy</button>
+                                <div className="bg-blur"></div>
+
                             </div>
                         </div>
                     )

@@ -12,7 +12,7 @@ const Categories = () => {
                 <div className="categorie" key={item.id}>
                     <div className="info-categories-container">
                         <h1>{item.title}</h1>
-                        <button>compre</button>
+                        <button>Buy</button>
                     </div>
                     <img src={item.img} />
 
